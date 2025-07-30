@@ -67,7 +67,7 @@ A categorized list of representative wildfire forecasting models, including phys
 ### 🔥 FiReDiff Paradigm
 **Enhanced wildfire-specific versions**: MCVD*, STDiff*, VDT*, DynamiCrafter*.
 1. **Video Prediction**  
-   • Run the chosen generative model on the infrared video modality to predict future frames.  
+   • Run the chosen **generative model** on the infrared video modality to predict future frames.  
 2. **Fire Mask Segmentation**  
    • Apply **SAM2** to the generated frames to produce accurate fire segmentation masks.  
 
