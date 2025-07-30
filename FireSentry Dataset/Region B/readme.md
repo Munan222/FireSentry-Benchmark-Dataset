@@ -1,6 +1,6 @@
-# 🌍 Region X Fire Dataset
+# 🌍 Fire Dataset
 
-This folder contains wildfire data for **Region X**.
+This folder contains wildfire data for **Region B**.
 
 ## 📄 Description
 
