@@ -26,8 +26,8 @@ Infrared imaging captures critical thermal dynamics that are essential for:
 > Location: `./Visible light video`
 
 ### Key Characteristics
-- **Native Frame Rate**:  
-  Maintains original temporal resolution with **1/30-second interval** between consecutive frames.
+- **Temporal Processing**:  
+  Videos are temporally downsampled with a **50-second interval** between consecutive frames.
   
 - **Complementary Information**:
   - Visual documentation of smoke plume diffusion
@@ -49,7 +49,7 @@ RGB imaging provides unique visual context crucial for:
 ## Comparative Analysis
 | Feature | Infrared Video | Visible Light Video |
 |---------|----------------|---------------------|
-| **Frame Interval** | 5 seconds | 1/30 second |
+| **Frame Interval** | 5 seconds | 50 second |
 | **Smoke Penetration** | Excellent | Limited |
 | **Vegetation Occlusion** | Minimal | Significant |
 | **Night Operation** | Effective | Ineffective |
