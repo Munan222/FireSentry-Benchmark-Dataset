@@ -1,19 +1,19 @@
 # Drone Video Modalities
 
-## Infrared Video
-> Location: `./Infrared video`
+## 🔥 Infrared Video
+> 📁 Location: `./Infrared video`
 
-### Key Characteristics
-- **Temporal Processing**:  
-  Videos are temporally downsampled with a **5-second interval** between consecutive frames to clearly visualize wildfire progression dynamics.
+### ⚙️ Key Characteristics
+- **⏱️ Temporal Processing**:  
+  Videos are temporally downsampled with a **5-second interval** between consecutive frames to enhance wildfire progression visualization.
   
-- **Advantages over Visible Light**:
-  - Resistant to smoke occlusion
-  - Unaffected by vegetation cover interference
-  - Provides clear thermal signatures of active fire fronts
-  - Effective for night operations and low-visibility conditions
+- **✅ Advantages over Visible Light**:
+  - 🛡️ Resistant to smoke occlusion
+  - 🌿 Unaffected by vegetation cover interference
+  - 🔥 Clear thermal signatures of active fire fronts
+  - 🌙 Effective for night operations and low-visibility conditions
 
-### Scientific Value
+### 🔬Scientific Value
 Infrared imaging captures critical thermal dynamics that are essential for:
 1. Accurate fire intensity mapping
 2. Subsurface fire detection
@@ -22,21 +22,20 @@ Infrared imaging captures critical thermal dynamics that are essential for:
 
 ---
 
-## Visible Light Video
-> Location: `./Visible light video`
+## 🌄 Visible Light Video
+> 📁 Location: ./Visible light video
 
-### Key Characteristics
-- **Temporal Processing**:  
-  Videos are temporally downsampled with a **50-second interval** between consecutive frames.
+### ⚙️ Key Characteristics
+- **⏱️ Temporal Processing:**:  
+  Videos are temporally downsampled with a **50-second** interval between consecutive frames to capture environmental dynamics.
   
-- **Complementary Information**:
-  - Visual documentation of smoke plume diffusion
-  - Detailed vegetation status monitoring
-  - Terrain feature visualization
-  - Fire-atmosphere interaction patterns
-  - Flame color and structure analysis
+- **📸 Complementary Information**:
+  - 💨 Visual documentation of smoke plume diffusion
+  - 🌿 Detailed vegetation status monitoring
+  - 🗺️ Terrain feature visualization
+  - 🌪️ Fire-atmosphere interaction patterns
 
-### Scientific Value
+### 🔬Scientific Value
 RGB imaging provides unique visual context crucial for:
 1. Smoke dispersion modeling
 2. Fuel moisture estimation
