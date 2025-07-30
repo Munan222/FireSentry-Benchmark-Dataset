@@ -22,7 +22,7 @@
 
 ### 🌦️ Environmental Data
 Time-series meteorological parameters (1Hz sampling):
-- Air Quality: PM$_{2.5}$,PM$_{10}$,CO,SO$_{2}$,NO$_{2}$,O$_{3}$, VOC
+- Air Quality: PM₂.₅, PM₁₀, CO, SO₂, NO₂, O₃, VOC
 - Weather: Temperature, Humidity
 - Wind: Speed, Direction
 
