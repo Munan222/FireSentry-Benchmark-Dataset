@@ -55,19 +55,8 @@ Forestry characteristics (spatial distribution maps):
 - **DynamiCrafter**: Dynamic scene crafting framework
 
 ### 🔥 FiReDiff Paradigm
-Enhanced wildfire-specific versions:
-- MCVD*
-- STDiff*
-- VDT*
-- DynamiCrafter*
+**Enhanced wildfire-specific versions**: MCVD*, STDiff*, VDT*, DynamiCrafter*.
 
-```mermaid
-graph LR
-A[Drone Videos] --> F(Forecasting Models)
-B[Fire Masks] --> F
-C[Weather Data] --> F
-D[Vegetation Maps] --> F
-F --> G[Fire Spread Predictions]
 
 ### 📊 Evaluation Metrics
 We evaluate:
