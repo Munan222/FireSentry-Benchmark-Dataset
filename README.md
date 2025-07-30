@@ -69,7 +69,7 @@ A categorized list of representative wildfire forecasting models, including phys
 1. **Video Prediction**  
    • Run the chosen generative model on the infrared video modality to predict future frames.  
 2. **Fire Mask Segmentation**  
-   • Apply SAM2 to the generated frames to produce accurate fire segmentation masks.  
+   • Apply **SAM2** to the generated frames to produce accurate fire segmentation masks.  
 
 > 💡 **Note:** The “*” denotes models fine-tuned under the FiReDiff paradigm for optimal wildfire forecasting performance.
 
