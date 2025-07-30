@@ -19,7 +19,7 @@
 - **Granularity**: Pixel-level fire segmentation
 
 ### 🌦️ Environmental Data
-Time-series meteorological parameters (1Hz sampling):
+Time-series meteorological parameters:
 - Air Quality: PM₂.₅, PM₁₀, CO, SO₂, NO₂, O₃, VOC
 - Weather: Temperature, Humidity
 - Wind: Speed, Direction
@@ -29,7 +29,7 @@ Forestry characteristics (spatial distribution maps):
 - Land cover type
 - Tree species distribution
 - Stems per hectare
-- Average DBH (Diameter at Breast Height)
+- Average diameter at breast height)
 - Canopy density
 
 ### 🔐 Data Access
