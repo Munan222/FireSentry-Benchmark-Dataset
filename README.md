@@ -4,8 +4,7 @@
 ## 📁 Dataset Overview
 
 ### 🌍 Regions
-- **Available now**: Region A
-- **Coming after paper acceptance**: Regions B, C, D, E
+- **Region A, B, C, D, E**
 
 ### 📸 Drone Observations
 - **Modalities**:
