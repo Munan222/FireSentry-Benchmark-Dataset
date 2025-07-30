@@ -38,20 +38,31 @@ Forestry characteristics (spatial distribution maps):
 | Regions B-E | Post-acceptance | Available after paper publication |
 | Forestry Data | Restricted | [gscloud.cn](http://www.gscloud.cn/search) |
 
-## 🧪 Benchmark Models
+## 🧪 Benchmark Models Overview
+
+A categorized list of representative wildfire forecasting models, including physical, data-driven, and generative approaches. Each entry contains a brief description and citation.
+
+---
+## 📖 Table of Contents
+
+1. [Physical Model](#physical-model)  
+2. [Data-Driven Models](#data-driven-models)  
+3. [Generative Models](#generative-models)
+---
 
 ### 🔬 Physical Model
-- **WRF-SFIRE**: Weather Research and Forecasting with Fire module
+- **WRF-SFIRE**: Weather Research and Forecasting model with the SFIRE module for coupled atmosphere–wildland fire simulation.
+
 
 ### 📈 Data-driven Models
-- **Earthformer**: Earth-specific transformer architecture
-- **PredRNN**: Predictive Recurrent Neural Networks
+- **Earthformer**: Space–time Transformer architecture tailored for Earth system forecasting.
+- **PredRNN**: Recurrent neural network for spatiotemporal predictive learning.
 
 ### 🎨 Generative Models
-- **MCVD**: Masked Conditional Video Diffusion
-- **STDiff**: Spatio-Temporal Diffusion model
-- **VDT**: Video Diffusion Transformer
-- **DynamiCrafter**: Dynamic scene crafting framework
+- **MCVD**: Masked Conditional Video Diffusion for prediction, generation, and interpolation.
+- **STDiff**: Spatio-temporal diffusion model for continuous stochastic video prediction.
+- **VDT**: General-purpose video diffusion transformers via mask modeling.
+- **DynamiCrafter**: Animating open-domain images with video diffusion priors.
 
 ### 🔥 FiReDiff Paradigm
 **Enhanced wildfire-specific versions**: MCVD*, STDiff*, VDT*, DynamiCrafter*.
@@ -67,3 +78,74 @@ We evaluate:
 For dataset access requests and technical inquiries:
 zhoun24@mails.tsinghua.edu.cn
 
+
+
+<details> <summary>Citation</summary>
+  
+@article{mandel2011coupled,
+  title     = {Coupled atmosphere-wildland fire modeling with WRF-Fire version 3.3},
+  author    = {Mandel, Jan and Beezley, Jonathan D. and Kochanski, Adam K.},
+  journal   = {Geoscientific Model Development Discussions},
+  volume    = {4},
+  number    = {1},
+  pages     = {497--545},
+  year      = {2011},
+  publisher = {Göttingen, Germany}
+}
+
+@article{gao2022earthformer,
+  title   = {Earthformer: Exploring space-time transformers for earth system forecasting},
+  author  = {Gao, Zhihan and Shi, Xingjian and Wang, Hao and Zhu, Yi and Wang, Yuyang Bernie and Li, Mu and Yeung, Dit-Yan},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {35},
+  pages   = {25390--25403},
+  year    = {2022}
+}
+
+@article{wang2022predrnn,
+  title     = {PredRNN: A recurrent neural network for spatiotemporal predictive learning},
+  author    = {Wang, Yunbo and Wu, Haixu and Zhang, Jianjin and Gao, Zhifeng and Wang, Jianmin and Yu, Philip S. and Long, Mingsheng},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume    = {45},
+  number    = {2},
+  pages     = {2208--2225},
+  year      = {2022},
+  publisher = {IEEE}
+}
+
+@article{voleti2022mcvd,
+  title   = {MCVD: Masked conditional video diffusion for prediction, generation, and interpolation},
+  author  = {Voleti, Vikram and Jolicoeur-Martineau, Alexia and Pal, Chris},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {35},
+  pages   = {23371--23385},
+  year    = {2022}
+}
+
+@inproceedings{ye2024stdiff,
+  title     = {STDiff: Spatio-temporal diffusion for continuous stochastic video prediction},
+  author    = {Ye, Xi and Bilodeau, Guillaume‑Alexandre},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {38},
+  number    = {7},
+  pages     = {6666--6674},
+  year      = {2024}
+}
+
+@article{lu2023vdt,
+  title   = {VDT: General-purpose video diffusion transformers via mask modeling},
+  author  = {Lu, Haoyu and Yang, Guoxing and Fei, Nanyi and Huo, Yuqi and Lu, Zhiwu and Luo, Ping and Ding, Mingyu},
+  journal = {arXiv preprint arXiv:2305.13311},
+  year    = {2023}
+}
+
+@inproceedings{xing2024dynamicrafter,
+  title        = {DynamiCrafter: Animating open-domain images with video diffusion priors},
+  author       = {Xing, Jinbo and Xia, Menghan and Zhang, Yong and Chen, Haoxin and Yu, Wangbo and Liu, Hanyuan and Liu, Gongye and Wang, Xintao and Shan, Ying and Wong, Tien‑Tsin},
+  booktitle    = {European Conference on Computer Vision},
+  pages        = {399--417},
+  year         = {2024},
+  organization = {Springer}
+}
+
+</details> 
