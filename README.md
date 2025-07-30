@@ -29,7 +29,7 @@ Forestry characteristics (spatial distribution maps):
 - Land cover type
 - Tree species distribution
 - Stems per hectare
-- Average diameter at breast height)
+- Average diameter at breast height
 - Canopy density
 
 ### 🔐 Data Access
