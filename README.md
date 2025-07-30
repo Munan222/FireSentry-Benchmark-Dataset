@@ -34,7 +34,7 @@ Forestry characteristics (spatial distribution maps):
 ### 🔐 Data Access
 | Data Type | Availability | Access Method |
 |-----------|--------------|---------------|
-| Region A | Public | ./FireSentry Dataset/regionA |
+| Region A | Public | ./FireSentry Dataset/Region A |
 | Regions B-E | Post-acceptance | Available after paper publication |
 | Forestry Data | Restricted | [gscloud.cn](http://www.gscloud.cn/search) |
 
