@@ -11,8 +11,7 @@
 - **Modalities**:
   - Infrared video (thermal imaging)
   - Visible light video (RGB imaging)
-- **Resolution**: 1920×1080 @ 30fps
-- **Coverage**: 5km×5km per region
+- **Resolution**: 1280×1024 @ 30fps
 
 ### 🔥 Wildfire Masks
 - **Annotation Methods**:
@@ -37,7 +36,7 @@ Forestry characteristics (spatial distribution maps):
 ### 🔐 Data Access
 | Data Type | Availability | Access Method |
 |-----------|--------------|---------------|
-| Region A | Public | ./FireSentry Dataset/regionA) |
+| Region A | Public | ./FireSentry Dataset/regionA |
 | Regions B-E | Post-acceptance | Available after paper publication |
 | Forestry Data | Restricted | [gscloud.cn](http://www.gscloud.cn/search) |
 
