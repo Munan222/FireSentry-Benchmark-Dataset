@@ -15,8 +15,7 @@
 ### 🔥 Wildfire Masks
 - **Annotation Methods**:
   - SAM2 algorithm-generated masks
-  - Manually validated manual annotations
-- **Granularity**: Pixel-level fire segmentation
+  - Manual annotations
 
 ### 🌦️ Environmental Data
 Time-series meteorological parameters:
