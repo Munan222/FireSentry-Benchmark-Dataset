@@ -66,7 +66,12 @@ A categorized list of representative wildfire forecasting models, including phys
 
 ### 🔥 FiReDiff Paradigm
 **Enhanced wildfire-specific versions**: MCVD*, STDiff*, VDT*, DynamiCrafter*.
+1. **Video Prediction**  
+   • Run the chosen generative model on the infrared video modality to predict future frames.  
+2. **Fire Mask Segmentation**  
+   • Apply SAM2 to the generated frames to produce accurate fire segmentation masks.  
 
+> 💡 **Note:** The “*” denotes models fine-tuned under the FiReDiff paradigm for optimal wildfire forecasting performance.
 
 ### 📊 Evaluation Metrics
 We evaluate:
@@ -146,6 +151,13 @@ zhoun24@mails.tsinghua.edu.cn
   pages        = {399--417},
   year         = {2024},
   organization = {Springer}
+}
+
+@article{ravi2024sam,
+  title={Sam 2: Segment anything in images and videos},
+  author={Ravi, Nikhila and Gabeur, Valentin and Hu, Yuan-Ting and Hu, Ronghang and Ryali, Chaitanya and Ma, Tengyu and Khedr, Haitham and R{\"a}dle, Roman and Rolland, Chloe and Gustafson, Laura and others},
+  journal={arXiv preprint arXiv:2408.00714},
+  year={2024}
 }
 
 </details> 
