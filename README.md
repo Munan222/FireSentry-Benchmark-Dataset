@@ -47,26 +47,21 @@ A categorized list of representative wildfire forecasting models, including phys
 ---
 ## 📖 Table of Contents
 
-1. [Physical Model](#physical-model)  
-2. [Data-Driven Models](#data-driven-models)  
-3. [Generative Models](#generative-models)
----
-
-### 🔬 Physical Model
+### 🔬 1. Physical Model
 - **WRF-SFIRE**: Weather Research and Forecasting model with the SFIRE module for coupled atmosphere–wildland fire simulation.
 
 
-### 📈 Data-driven Models
+### 📈 2. Data-driven Models
 - **Earthformer**: Space–time Transformer architecture tailored for Earth system forecasting.
 - **PredRNN**: Recurrent neural network for spatiotemporal predictive learning.
 
-### 🎨 Generative Models
+### 🎨 3. Generative Models
 - **MCVD**: Masked Conditional Video Diffusion for prediction, generation, and interpolation.
 - **STDiff**: Spatio-temporal diffusion model for continuous stochastic video prediction.
 - **VDT**: General-purpose video diffusion transformers via mask modeling.
 - **DynamiCrafter**: Animating open-domain images with video diffusion priors.
 
-### 🔥 FiReDiff Paradigm
+### 🔥 4. FiReDiff Paradigm
 **Enhanced wildfire-specific versions**: MCVD*, STDiff*, VDT*, DynamiCrafter*.
 1. **Video Prediction**  
    • Run the chosen **generative model** on the infrared video modality to predict future frames.  
