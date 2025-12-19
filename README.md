@@ -12,12 +12,10 @@
 - **Modalities**:
   - Infrared video (thermal imaging)
   - Visible light video (RGB imaging)
-- **Resolution**: 1280×1024 @ 30fps
 
 ### 🔥 Wildfire Masks
 - **Annotation Methods**:
   - SAM2 algorithm-generated masks
-  - Manual annotations
 
 ### 🌦️ Environmental Data
 Time-series meteorological parameters:
