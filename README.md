@@ -1,7 +1,9 @@
 # FireSentry-Benchmark-Dataset
 **FireSentry-Benchmark-Dataset** is a multi-modal spatiotemporal benchmark dataset for fine-grained wildfire spread forecasting. This dataset integrates drone observations, environmental parameters, and vegetation characteristics to support advanced wildfire modeling research.
 
-<center> <h2 style="color: #e74c3c; border: 2px solid #e74c3c; padding: 10px; border-radius: 5px; background-color: #fff5f5;"> 🎉 This paper has been accepted to the KDD 26 Dataset and Benchmark Track! 🎉 </h2> </center>
+<center> <h2 style="color: #e74c3c; border: 2px solid #e74c3c; padding: 10px; border-radius: 5px; background-color: #fff5f5;"> 🎉 This paper has been accepted to the KDD 26 Dataset and Benchmark Track! 🎉 </h2> 
+Paper: https://arxiv.org/abs/2512.03369
+</center>
 
 ## 📁 Dataset Overview
 
